@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: #1292ee;
+}
+
+.cube{
+    height: 550px;
+    width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #f1f8ff;
+    color: #5b4b9f;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 20px;
+}
+
+.name{
+    float: left;
+}
+
+.surname{
+    float: right;
+    margin-right: 25px;
+}
+
+.name input, .surname input, .email input{ 
+    width: 155px;
+    border-radius: 5px;
+}
+
+.margin-left{
+    margin-left: 25px;
+}
+
+.choose1{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.boxtext textarea{
+    width: 345px;
+    height: 100px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit input{
+    border-radius: 5px;
+    background-color: #5b4b9f;
+    color: #b7abbe;
+}

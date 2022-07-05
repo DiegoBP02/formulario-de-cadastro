@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <form>
+        <div class="cube">
+            <div class="title">Cadastro de DEVs</div>
+            <div class="subtitle">Complete suas informações</div>
+            <div class="text">
+                <div class="name margin-left">
+                   <label for="name">Nome</label><br/>
+                   <input type="text" name="name" id="name">
+                </div>
+                <div class="surname">
+                    <label for="surname">Sobrenome</label><br/>
+                    <input type="text" name="surname" id="surname">
+                </div>
+                <div class="email margin-left"><br/><br/><br/>
+                    <label for="email">Email</label><br/>
+                    <input type="email" name="email" id="email">  
+                </div>
+            </div>
+
+            <div class="radio">
+                <div class="fe margin-left"><br/>
+                    <input type="radio" name="radio" id="fe">
+                    <label for="fe">Front-end</label>
+                </div>
+                <div class="be margin-left">
+                    <input type="radio" name="radio" id="be">
+                    <label for="be">Back-end</label><br/>
+                </div>
+                <div class="fs margin-left">
+                    <input type="radio" name="radio" id="fs">  
+                    <label for="fs">Fullstack</label><br/>
+                </div><br/>
+            </div>
+
+            <div class="choices margin-left">
+                <label for="choices">Senioridade</label><br/>
+                <select id="choices">
+                    <option label="Selecione"></option>
+                    <option label="Junior"></option>
+                    <option label="Pleno"></option>
+                    <option label="Senior"></option>
+                </select><br/><br/>
+            </div>
+
+            <div class="choose margin-left">
+                Selecione as tecnologias que utiliza:<br/>
+                <div class="choose1">
+                    <input type="checkbox" name="html" id="html">  
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="css" id="css">  
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="javascript" id="javascript">  
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" name="php" id="php">  
+                    <label for="php">PHP</label>
+                    <input type="checkbox" name="c" id="c">  
+                    <label for="c">C#</label>
+                    <input type="checkbox" name="python" id="python">  
+                    <label for="python">Python</label>
+                    <input type="checkbox" name="java" id="java">
+                    <label for="java">Java</label><br/><br/>
+                </div>
+            </div>
+
+            <div class="boxtext margin-left">
+                <label fpr="textbox">Conte um pouco mais da sua experiência:</label>
+                <textarea id="textbox" name="textbox"></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Concluído">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
